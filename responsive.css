@@ -1,0 +1,73 @@
+/* Phone   */
+
+@media (max-width: 600px) {
+
+    :root{
+        size: 62%;
+    }
+
+    body{
+        margin: 0;
+    }
+
+    .nav-elements a{
+        display: none;
+    }
+
+    .logo{
+        margin-left: 15px;
+    }
+
+    .heading{
+        margin-left: 15px;
+    }
+
+    .gallery{
+        margin: 0 15px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .second-container{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+
+    .third-content-image{
+        margin-top: 30px;
+    }
+
+    .img2{
+        display: none;
+    }
+    
+    
+    
+
+    .third-content-container{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .third-content{
+        width: 90%;
+    }
+
+    .fourth-content-container{
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .fifth-container{
+        flex-direction: column;
+    }
+
+    .fifth-container-form{
+        width: 90%;
+    }
+
+    .fifth-container-img{
+        margin-top: 10px;
+        width: 90%;
+    }
+}
